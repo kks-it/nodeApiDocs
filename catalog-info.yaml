@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: demo-node-api
+  title: Demo API
+  description: Demo application backend
+spec:
+  type: openapi
+  lifecycle: production
+  # owner: group:default/adg-adg-adg-developers
+  # system: airside-crew-meal-engine
+  definition:
+    $text: ./docs/openapi.json
